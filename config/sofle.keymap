@@ -77,7 +77,7 @@
                                  &kp LGUI &none    &kp LCTRL MO_TOG(LOWER) &kp SPACE    &kp RET  &mo RAISE &kp BSPC  &kp DEL   &kp LALT
             >;
             sensor-bindings = <
-                &inc_dec_kp LC(Z) LC(Y) 
+                &inc_dec_kp LC(Y) LC(Z) 
                 &scroll_encoder
                 >;
         };
