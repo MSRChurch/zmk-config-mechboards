@@ -38,13 +38,13 @@
     };
 
     behaviors {
-        td_LSHFT: tap_dance_mod_tap {
+        td_LSHFT: tap_dance_mod_tap_lshift {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
         };
-        td_LOWER: tap_dance_mod_tap {
+        td_LOWER: tap_dance_mod_tap_lower {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
